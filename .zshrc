@@ -127,7 +127,8 @@ fi
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 ### Fix URxvt key bindings
-bindkey "\e[H" beginning-of-line
-bindkey "\e[F" end-of-line
 
-alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
+bindkey '^[[H' beginning-of-line     # Home
+bindkey '^[[F' end-of-line     # End
+bindkey '^[[3~' delete-char     # Delete
+bindkey '^?' backward-delete-char     # Backspace
