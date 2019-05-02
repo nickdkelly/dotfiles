@@ -4,6 +4,11 @@
 # Path to your oh-my-zsh installation.
   export ZSH="/home/nick/.oh-my-zsh"
 
+# Node
+
+  export PATH="$PATH:$HOME/.npm/bin"
+  export NODE_PATH="$NODE_PATH:$HOME/npm/lib/node_modules"
+  fpath=( "$HOME/.zfunctions" $fpath )
 # Laravel
   export PATH="$HOME/.composer/vendor/bin:$PATH"
 # Imgur
@@ -14,7 +19,7 @@
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="spaceship"
+ZSH_THEME=""
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -105,6 +110,11 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# Pure prompt
+autoload -U promptinit; promptinit
+prompt pure
+
+
 ### Ubuntu Aliases
 
 alias apt='sudo apt'
@@ -127,7 +137,6 @@ fi
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 ### Fix URxvt key bindings
-
 bindkey '^[[H' beginning-of-line     # Home
 bindkey '^[[F' end-of-line     # End
 bindkey '^[[3~' delete-char     # Delete
