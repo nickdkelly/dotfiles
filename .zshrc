@@ -5,15 +5,16 @@
   export ZSH="/home/nick/.oh-my-zsh"
 
 # Node
-
   export PATH="$PATH:$HOME/.npm/bin"
   export NODE_PATH="$NODE_PATH:$HOME/npm/lib/node_modules"
   fpath=( "$HOME/.zfunctions" $fpath )
 # Laravel
   export PATH="$HOME/.composer/vendor/bin:$PATH"
+  
 # Imgur
   export PATH="$HOME/bin:$PATH"
-
+# PiaVPN
+  export PATH="/opt/piavpn/bin:$PATH"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
