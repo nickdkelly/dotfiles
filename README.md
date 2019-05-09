@@ -17,10 +17,10 @@ This is my collection of dotfiles.
 	- https://github.com/sindresorhus/pure
 	
 # GTK Theme
-	- ant (https://github.com/EliverLara/Ant)
+	- adapta eta (https://github.com/adapta-project/adapta-gtk-theme)
 	
 # Icon Theme
 	- eSuru++ (https://github.com/gusbemacbe/suru-plus)
 	
 # Screenshot
-![alt text](https://i.imgur.com/zz1ZWxa.png)
+![alt text](https://i.imgur.com/HrmuDOO.png)
