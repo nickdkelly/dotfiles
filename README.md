@@ -23,4 +23,4 @@ This is my collection of dotfiles.
 	- eSuru++ (https://github.com/gusbemacbe/suru-plus)
 	
 # Screenshot
-![alt text](https://i.imgur.com/zz1ZWxa.png)
+![alt text](https://i.imgur.com/HrmuDOO.png)
