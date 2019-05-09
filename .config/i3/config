@@ -185,7 +185,7 @@ gaps inner 5
 gaps outer 1
 
 # Window borders
-for_window [class="^.*"] border pixel 3 
+for_window [class="^.*"] border pixel 6 
 
 # Compton for compositing
 exec --no-startup-id compton
