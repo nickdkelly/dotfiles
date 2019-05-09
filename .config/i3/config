@@ -225,7 +225,10 @@ bindsym XF86MonBrightnessDown exec light -U 5
 new_window 1pixel
 
 # Set wallpaper
-exec --no-startup-id feh --bg-fill "/home/nick/Dropbox/Images/Wallpapers/Corey Johnn - Iceland/varmahlid_blur.jpeg"
+#exec --no-startup-id feh --bg-fill "/home/nick/Dropbox/Images/Wallpapers/Corey Johnn - Iceland/varmahlid_blur.jpeg"
+
+exec_always --no-startup-id feh --bg-fill "/home/nick/Dropbox/Images/Wallpapers/Flat/moon.jpg"
+
 
 # Fix keyboard layout
 exec --no-startup-id setxkbmap -layout gb
