@@ -24,7 +24,7 @@ background-alt = #444
 foreground = #dfdfdf
 foreground-alt = #555
 primary = #ffb52a
-secondary = #FF5D73
+secondary = #77adaa
 alert = #bd2c40
 
 [bar/bar1]
@@ -110,7 +110,7 @@ type = internal/bspwm
 
 label-focused = %name%
 label-focused-background = ${colors.background-alt}
-label-focused-underline= #FF5D73
+label-focused-underline= #77adaa
 label-focused-padding = 2
 
 label-occupied = %name%

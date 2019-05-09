@@ -181,11 +181,14 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 ##### Custom config options ####
 
 # Gaps
-gaps inner 15
+gaps inner 5
 gaps outer 1
 
 # Window borders
 for_window [class="^.*"] border pixel 3 
+
+# Compton for compositing
+exec --no-startup-id compton
 
 # NM Applet
 #exec --no-startup-id nm-applet
@@ -230,9 +233,9 @@ exec --no-startup-id setxkbmap -layout gb
 # Colours
 
 # class                 border  backgr. text    indicator child_border                                                                     
-client.focused_inactive #ff5d73 #212121 #d9d9d9 #0d1010 #063340                                                                            
+client.focused_inactive #77adaa #212121 #d9d9d9 #0d1010 #063340                                                                            
 client.unfocused        #0d1010 #212121 #d9d9d9 #424242 #063340                                                                            
-client.focused          #ff5d73 #cecece #000000 #d9d9d9 #ff5d73           
+client.focused          #77adaa #cecece #000000 #d9d9d9 #77adaa
 
 # Screenshot to imgur
 bindsym Print exec maim -s | $HOME/bin/imgur
